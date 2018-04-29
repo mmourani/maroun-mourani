@@ -41,7 +41,7 @@ img{
 
 .agiletopbar {
 	height: 65px;
-    border-bottom: 1px solid #146eb4;
+    border-bottom: 1px solid #a20204;
     background: #EEE048;
     position: relative;
 }
@@ -56,7 +56,7 @@ img{
 	width: 10%;
 	float: left;
 	height: 65px;
-	border-right: 1px solid #146eb4;
+	border-right: 1px solid #a20204;
 }
 
 .agileinfomenu p {
@@ -64,7 +64,7 @@ img{
 	padding-top: 19px;
 	padding-left: 35px;
 	height: 100%;
-    color: #146eb4;
+    color: #a20204;
 }
 
 .aitslogow3ls {
@@ -82,7 +82,7 @@ img{
     padding-top: 4px;
     width: 17%;
     height: 64px;
-    background-color: #146eb4;
+    background-color: #a20204;
 	border: 1px solid #FFF;
 	font-family: 'PT Sans', sans-serif;
 }
@@ -97,7 +97,7 @@ img{
 	float: left;
 	height: 65px;
 	text-align: center;
-	border-left: 1px solid #146eb4;
+	border-left: 1px solid #a20204;
 }
 
 .wthreecontact p {
@@ -106,7 +106,7 @@ img{
 
 .wthreecontact a {
 	font-size: 20px;
-    color: #146eb4;
+    color: #a20204;
 }
 
 .wthreecontact a:hover {
@@ -298,7 +298,7 @@ h3.heading {
 	font-size: 30px;
 	text-transform:uppercase;
 	letter-spacing:0px;
-	color: #146eb4;
+	color: #a20204;
     margin-bottom: .5em;
 }
 .clients span {
@@ -367,8 +367,8 @@ ul.hireme li a {
     background: #ff9900;
 }
 .w3ls_more, .w3l_contact:hover {
-    border: 1px solid #146eb4;
-    background: #146eb4;
+    border: 1px solid #a20204;
+    background: #a20204;
     color: #ffffff !important;
 }
 ul.hireme {
@@ -441,7 +441,7 @@ ul.hireme {
 
 /* education */
 .grid1 h3 {
-    color: #146eb4;
+    color: #a20204;
     text-transform: capitalize;
     margin-bottom: .5em;
     font-size: 24px;
@@ -542,7 +542,7 @@ div#stats h3.heading-agileinfo {
 }
 .count-grid i {
     font-size: 2em;
-    color: #146eb4;
+    color: #a20204;
     width: 70px;
     height: 70px;
     padding-top: 0.7em;
@@ -703,7 +703,7 @@ input[type="checkbox"] {
     border: none;
 }
 .contact input[type="submit"]:hover {
-    background: #146eb4;
+    background: #a20204;
 }
 .contact-right {
     padding-left: 1em;

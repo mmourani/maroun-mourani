@@ -32,7 +32,7 @@
 	right: 0.5em;
 	bottom: 0.5em;
 	left: 0.5em;
-	background: linear-gradient(#146eb4 20%, transparent 20%, transparent 40%, #146eb4 40%, #146eb4 60%, transparent 60%, transparent 80%, #146eb4 80%);
+	background: linear-gradient(#a20204 20%, transparent 20%, transparent 40%, #a20204 40%, #a20204 60%, transparent 60%, transparent 80%, #a20204 80%);
 	content: '';
 }
 
@@ -82,7 +82,7 @@
 	width: 300px;
 	height: 100%;
 	background: #272727;
-    background: #0d6bb5;
+    background: #a20204;
 	padding: 2.5em 1.5em 0;
 	font-size: 1.15em;
 	-webkit-transform: translate3d(-320px,0,0);
