@@ -101,15 +101,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     </div>
                     </h2>
                     <ul class="social-nav model-3d-0 footer-social w3_agile_social">
-                        <li><a href="#" class="twitter"> 
+                        <li><a href="https://twitter.com/MarounMourani?lang=en" class="twitter"> 
                             <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
                             <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
                         </li>
-                        <li><a href="#" class="instagram">
+                        <li><a href="https://www.instagram.com/mmourani/" class="instagram">
                             <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
                             <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
                         </li>
-                        <li><a href="#" class="pinterest">
+                        <li><a href="https://www.linkedin.com/in/marounmourani/" class="pinterest">
                             <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
                             <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a>
                         </li>
@@ -180,7 +180,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         </li>
                         <li>
                             <h3>Hi, I am Maroun Mourani</h3>
-                            <h4>Senior Consultant - +20 years of international experience</h4>
+                            <h4>Senior Consultant - 20+ years of international experience</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
@@ -518,19 +518,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <h3><a href="index.html">My Career</a></h3>
         <p>© 2017 My Career. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
                     <ul class="social-nav model-3d-0 footer-social w3_agile_social">
-                        <li><a href="#" class="facebook">
-                            <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-                            <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
-                        </li>
-                        <li><a href="#" class="twitter"> 
+                        <li><a href="https://twitter.com/MarounMourani?lang=en" class="twitter"> 
                             <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
                             <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
                         </li>
-                        <li><a href="#" class="instagram">
+                        <li><a href="https://www.instagram.com/mmourani/" class="instagram">
                             <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
                             <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
                         </li>
-                        <li><a href="#" class="pinterest">
+                        <li><a href="https://www.linkedin.com/in/marounmourani/" class="pinterest">
                             <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
                             <div class="back"><i class="fa fa-linkedin" aria-hidden="true"></i></div></a>
                         </li>
