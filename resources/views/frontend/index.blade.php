@@ -11,7 +11,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="Maroun Mourani CV international business development Dubai Middle East Africa blockchain Fintech Internet Of Things IOT consulting software designer programmer integration soutions" />
+<meta name="keywords" content="Maroun Mourani CV international business development Dubai Middle East Africa blockchain ICO defense defence Internet Of Things IOT consulting software designer programmer integration soutions" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); } </script>
 
@@ -92,9 +92,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <h2 class="rw-sentence">
                     <span>Senior Consultant in</span>
                     <div class="rw-words rw-words-1">
-                        <span>Business Development</span>
-                        <span>Defense</span>
-                        <span>Blockchain</span>
+                        <span>Internatonal BD and Sales</span>
+                        <span>Defense Market in MEA</span>
+                        <span>Blockchain and ICOs</span>
                         <span>Internet Of Things</span>
                         <span>Artificial Intelligence</span>
                         <span>Software Development</span>
