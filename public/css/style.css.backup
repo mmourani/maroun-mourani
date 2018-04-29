@@ -121,11 +121,9 @@ img{
 
 /* banner */
 .banner {
-  background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url(../images/maroun2.jpg) no-repeat 0px 0px;
+    background-size: cover;
+	min-height:770px;
 }
 .w3_banner_info {
     margin: 13em 0 0em;
@@ -1037,11 +1035,8 @@ img.zoom-img:hover {
 		width: 55%;
 	}
 	.banner {
-          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
+		background: url(../images/maroun2.jpg) no-repeat -130px 0px;
+		background-size: cover;
 	}
 	.gallery-grids {
 		padding: 0 5px;
@@ -1073,11 +1068,9 @@ img.zoom-img:hover {
 		left: 35%;
 	}
 	.banner {
-          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
+		background: url(../images/maroun2.jpg) no-repeat -140px 0px;
+		background-size: cover;
+		min-height: 470px;
 	}	
 	.rw-sentence span {
 		padding-top: 3px;
@@ -1126,11 +1119,9 @@ img.zoom-img:hover {
 		font-size: 1em;
 	}
 	.banner {
-          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
+		background: url(../images/maroun2.jpg) no-repeat -170px 0px;
+		background-size: cover;
+		min-height: 450px;
 	}
 }
 @media screen and (max-width: 640px){
@@ -1368,11 +1359,9 @@ img.zoom-img:hover {
 		font-size: 1.1em;
 	}
 	.banner {
-          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
+		background: url(../images/maroun2.jpg) no-repeat -180px 0px;
+		background-size: cover;
+        min-height: 375px;
 	}
 	h3.heading {
 		margin: 0 auto .5em;
@@ -1413,11 +1402,9 @@ img.zoom-img:hover {
 		width: 50%;
 	}
 	.banner {
-          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
+		background: url(../images/maroun2.jpg) no-repeat -200px 0px;
+		background-size: cover;
+        min-height: 320px;
 	}
 	.education .col-md-6, .experience .col-md-6 {
 		padding: 0 15px 0 0;
