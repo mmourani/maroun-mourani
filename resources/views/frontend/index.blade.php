@@ -206,18 +206,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="col-md-6 group">
                 <div class='bar_left'>
                     <div class='bar_group'>
-                        <div class='bar_group__bar thin' label='Javascript' show_values='true' value='343'></div>
-                        <div class='bar_group__bar thin' label='HTML5' show_values='true' value='235'></div>
-                        <div class='bar_group__bar thin' label='Bootstrap' show_values='true' value='245'></div>
+                        <div class='bar_group__bar thin' label='Business Dev' show_values='true' value='343'></div>
+                        <div class='bar_group__bar thin' label='Defense' show_values='true' value='235'></div>
+                        <div class='bar_group__bar thin' label='Software dev' show_values='true' value='245'></div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 group">
                 <div class='bar_right'>
                     <div class='bar_group'>
-                        <div class='bar_group__bar thin' label='PHP' show_values='true' value='675'></div>
-                        <div class='bar_group__bar thin' label='jQuery' show_values='true' value='343'></div>
-                        <div class='bar_group__bar thin' label='CSS3' show_values='true' value='245'></div>
+                        <div class='bar_group__bar thin' label='blockchain' show_values='true' value='675'></div>
+                        <div class='bar_group__bar thin' label='IOT' show_values='true' value='343'></div>
+                        <div class='bar_group__bar thin' label='AI' show_values='true' value='245'></div>
                     </div>
                 </div>
             </div>
@@ -452,22 +452,22 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class="mail-agileits-w3layouts">
                 <i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>
                 <div class="contact-right">
-                    <p>Phone</p><span>+1(01) 24-212-5665</span>
+                    <p>Phone</p><span>+971-50-668-2769</span>
                 </div>
                 <div class="clear"></div>
             </div>
             <div class="mail-agileits-w3layouts">
                 <i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
                 <div class="contact-right">
-                    <p>Email</p><a href="mailto:info@example.com">info@example.com</a>
+                    <p>Email</p><a href="mailto:info@mouraniconsulting.com">info@mouraniconsulting.com</a>
                 </div>
                 <div class="clear"></div>
             </div>
             <div class="mail-agileits-w3layouts">
                 <i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>
                 <div class="contact-right">
-                    <p>Address</p><span>10 Eunos Road 8, Mandalay </span> 
-                    <p><span>Towers, Singapore.</span></p>
+                    <p>Address</p><span>Bay Square, Business Bay </span> 
+                    <p><span>Dubai, UAE</span></p>
                 </div>
                 <div class="clear"></div>
             </div>
