@@ -93,8 +93,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <span>Senior Consultant in</span>
                     <div class="rw-words rw-words-1">
                         <span>Business Development</span>
+                        <span>Defense</span>
                         <span>Blockchain</span>
-                        <span>Fintech</span>
                         <span>Internet Of Things</span>
                         <span>Artificial Intelligence</span>
                         <span>Software Development</span>
