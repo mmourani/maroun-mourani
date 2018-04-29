@@ -181,10 +181,8 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li>
                             <h3>Hi, I am Maroun Mourani</h3>
                             <h4>Senior Consultant - 20+ years of international experience</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                                incididunt ut labore et dolore magna aliqua.</p>
+                            <p>Canadian entrepreneur, Software and Hardware Engineer, Dynamic and dedicated professional with international experience traveling around the world.</p>
+                            <p> Maroun is currently a senior consultant, president of MIC (Mourani International Consulting) and dealing in various activities with an amazing team and colleagues !</p>
                         </li>
                     </ul>
                 </div>
