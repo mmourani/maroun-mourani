@@ -7,12 +7,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>My Career a Personal Category Flat Bootstrap Responsive Website Template | Home :: w3layouts</title>
+<title>My personal CV on the internet </title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="keywords" content="My Career Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
-Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<meta name="keywords" content="Maroun Mourani CV international business development Dubai Middle East Africa blockchain Fintech Internet Of Things IOT consulting software designer programmer integration soutions" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
         function hideURLbar(){ window.scrollTo(0,1); } </script>
 
@@ -73,7 +72,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 <p>MENU</p>
             </div>
             <div class="aitslogow3ls">
-                    <a href="index.html"><div class="agilelogo">My Career</div></a>
+                    <a href="index.blade.php"><div class="agilelogo">My Career</div></a>
             </div>
             <div class="wthreecontact">
                 <p><a class="scroll" href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> CONTACT ME</a></p>
@@ -89,23 +88,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
             <div class="w3_banner_info">
                 <div class="w3_banner_info_grid">
-                    <h1>Albert son</h1>
+                    <h1>Maroun Mourani</h1>
                     <h2 class="rw-sentence">
-                    <span>Software Engineer and</span>
+                    <span>Senior Consultant in</span>
                     <div class="rw-words rw-words-1">
-                        <span>UI/UX Designer.</span>
-                        <span>Web Developer</span>
-                        <span>App Developer</span>
-                        <span>Graphic Designer</span>
-                        <span>Team Leader</span>
-                        <span>Programmer</span>
+                        <span>Business Development</span>
+                        <span>Blockchain</span>
+                        <span>Fintech</span>
+                        <span>Internet Of Things</span>
+                        <span>Artificial Intelligence</span>
+                        <span>Software Development</span>
                     </div>
                     </h2>
                     <ul class="social-nav model-3d-0 footer-social w3_agile_social">
-                        <li><a href="#" class="facebook">
-                            <div class="front"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-                            <div class="back"><i class="fa fa-facebook" aria-hidden="true"></i></div></a>
-                        </li>
                         <li><a href="#" class="twitter"> 
                             <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
                             <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
@@ -130,7 +125,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="container">
         <h3 class="heading">About Me</h3>
         <div class="col-md-6 aboutleft">
-            <img src="images/about.jpg" alt="" />
+            <img src="images/maroun.jpg" alt="" />
         </div>
         <div class="col-md-6 aboutright">
         <div class="clients">
@@ -143,37 +138,37 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <li>
                                     <ul class="agileits-address-text ">
                                         <li><b>D.O.B</b></li>
-                                        <li>21-04-1990</li>
+                                        <li>23-06-1972</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul class="agileits-address-text">
                                         <li><b>PHONE</b></li>
-                                        <li>+0(12) 111 183 3166</li>
+                                        <li>+971-50-6682769</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul class="agileits-address-text">
                                         <li><b>EXPERIENCE</b></li>
-                                        <li>+4 Years</li>
+                                        <li>+20 Years</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul class="agileits-address-text">
                                         <li><b>ADDRESS </b></li>
-                                        <li>10 Eunos Road 8, Mandalay Towers, Singapore.</li>
+                                        <li>Bay Square, Business Bay, Dubai, UAE</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul class="agileits-address-text">
                                         <li><b>E-MAIL </b></li>
-                                        <li><a href="mailto:example@mail.com"> info@example.com</a></li>
+                                        <li><a href="mailto:info@mouraniconsulting.com"> info@mouraniconsulting.com</a></li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul class="agileits-address-text">
                                         <li><b>WEBSITE </b></li>
-                                        <li><a href="#">www.mywebsite.com</a></li>
+                                        <li><a href="#">www.marounmourani.com</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -184,8 +179,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </ul>
                         </li>
                         <li>
-                            <h3>Hi, Iam Albert son</h3>
-                            <h4>UI/UX designer - +4 years of coding experience</h4>
+                            <h3>Hi, I am Maroun Mourani</h3>
+                            <h4>Senior Consultant - +20 years of international experience</h4>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
                                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation .</p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
