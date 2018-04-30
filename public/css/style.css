@@ -1015,9 +1015,11 @@ img.zoom-img:hover {
 	}
 }
 @media screen and (max-width: 900px){
-	.banner {
-		min-height: 500px;
-	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+
 }
 @media screen and (max-width: 800px){
 	.agiletopbar,.wthreenavigation,.agileinfomenu,.wthreecontact,.aitslogow3ls {
@@ -1047,7 +1049,6 @@ img.zoom-img:hover {
     .banner {
         background: url(../images/maroun2.jpg) no-repeat center center fixed;
         background-size: cover;
-        min-height: 320px;
     }
 	.gallery-grids {
 		padding: 0 5px;
@@ -1072,6 +1073,10 @@ img.zoom-img:hover {
 	.address h3 {
 		font-size: 25px;
 	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat -140px 0px;
+        background-size: cover;
+    }  
 }
 @media screen and (max-width: 736px){
 	.agilelogo {
@@ -1081,7 +1086,6 @@ img.zoom-img:hover {
     .banner {
         background: url(../images/maroun2.jpg) no-repeat -140px 0px;
         background-size: cover;
-        min-height: 470px;
     }   
 	.rw-sentence span {
 		padding-top: 3px;
@@ -1139,9 +1143,6 @@ img.zoom-img:hover {
 	.w3_banner_info {
 		margin: 7em 0 0em;
 	}
-	.banner {
-		min-height: 430px;
-	}
 	.numscroller {
 		font-size: 3em;
 	}
@@ -1151,6 +1152,10 @@ img.zoom-img:hover {
 	body .b_label, body .bar_label_min, body .bar_label_max, body .b_tooltip span {
 		font-size: 14px;
 	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat -170px 0px;
+        background-size: cover;
+    }
 }
 @media screen and (max-width: 600px){
 	.banner {
@@ -1189,6 +1194,11 @@ img.zoom-img:hover {
 	iframe {
 		height: 300px;
 	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat -170px 0px;
+        background-size: cover;
+        min-height: 450px;
+    }
 }
 @media screen and (max-width: 568px){
 	.menu-button {
@@ -1209,6 +1219,11 @@ img.zoom-img:hover {
 	.about {
 		padding: 2em 0 1em;
 	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat -400px -100px fixed;
+        background-size: cover;
+        min-height: 320px;
+    }
 }
 @media screen and (max-width: 480px){
 	.wthreecontact a {
@@ -1269,6 +1284,11 @@ img.zoom-img:hover {
 	.gallery h3.heading {
 		width: 34%;
 	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat -400px -100px fixed;
+        background-size: cover;
+        min-height: 320px;
+    }
 }
 @media screen and (max-width: 414px){
 	.agileinfomenu {
@@ -1354,6 +1374,11 @@ img.zoom-img:hover {
 	.clients h3, .skillsright h3.bar-h3 {
 		font-size: 20px;
 	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat -400px -100px fixed;
+        background-size: cover;
+        min-height: 320px;
+    }
 }
 @media screen and (max-width: 375px)
               and (-webkit-min-device-pixel-ratio: 2)
