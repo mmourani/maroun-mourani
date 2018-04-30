@@ -1341,7 +1341,9 @@ img.zoom-img:hover {
 		width: 42%;
 	}
     .banner {
-        margin: 0 auto;
+        display:block;
+        margin:auto;
+        width:900px;
         background: url(../images/maroun2.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -1400,7 +1402,9 @@ img.zoom-img:hover {
 	}
 
     .banner {
-        margin: 0 auto;
+        display:block;
+        margin:auto;
+        width:900px;
         background: url(../images/maroun2.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
