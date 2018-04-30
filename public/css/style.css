@@ -1282,6 +1282,14 @@ img.zoom-img:hover {
 	.aitslogow3ls {
 		width: 38%;
 	}
+    .banner {
+          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          background-color: #464646;
+    }
 	.wthreecontact {
 		width: 34%;
 	}
