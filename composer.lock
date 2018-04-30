@@ -2039,16 +2039,16 @@
         },
         {
             "name": "spatie/laravel-html",
-            "version": "2.19.5",
+            "version": "2.19.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spatie/laravel-html.git",
-                "reference": "64b682dafb5095f11b31c06b35ac117a376dc703"
+                "reference": "32ae895f65f89d474430ef1fe4b6c54f65327938"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spatie/laravel-html/zipball/64b682dafb5095f11b31c06b35ac117a376dc703",
-                "reference": "64b682dafb5095f11b31c06b35ac117a376dc703",
+                "url": "https://api.github.com/repos/spatie/laravel-html/zipball/32ae895f65f89d474430ef1fe4b6c54f65327938",
+                "reference": "32ae895f65f89d474430ef1fe4b6c54f65327938",
                 "shasum": ""
             },
             "require": {
@@ -2103,7 +2103,7 @@
                 "html",
                 "spatie"
             ],
-            "time": "2018-04-04T08:49:25+00:00"
+            "time": "2018-04-30T09:18:18+00:00"
         },
         {
             "name": "spatie/laravel-permission",

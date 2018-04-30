@@ -1,4 +1,4 @@
-@import url('normalize.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css');
 /* General Demo Style */
 html{
 	height: 100%;
