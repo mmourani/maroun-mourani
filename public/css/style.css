@@ -1346,7 +1346,6 @@ img.zoom-img:hover {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        max-height: 749px;
     }
 	.count-agileits h3.heading {
 		width: 77%;
@@ -1404,7 +1403,6 @@ img.zoom-img:hover {
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        max-height: 749px;
     }
 
 	.education .col-md-6, .experience .col-md-6 {
