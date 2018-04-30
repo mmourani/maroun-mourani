@@ -1338,6 +1338,14 @@ img.zoom-img:hover {
 	.education .col-md-6,.experience .col-md-6 {
 		padding: 0;
 	}
+    .banner {
+          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          background-color: #464646;
+    }
 	.count-agileits h3.heading {
 		width: 75%;
 	}
@@ -1348,7 +1356,9 @@ img.zoom-img:hover {
 		font-size: 20px;
 	}
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px)
+              and (-webkit-min-device-pixel-ratio: 2)
+{
 	h3.heading {
 		width: 50%;
 	}
@@ -1379,7 +1389,9 @@ img.zoom-img:hover {
 		margin: 0 auto .5em;
 	}
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 320px)
+              and (-webkit-min-device-pixel-ratio: 2)
+{
 	.menu-button {
 		margin: 0.2em 0em;
 	}
