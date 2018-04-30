@@ -126,6 +126,7 @@ img{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-color: #F4F4F2;
 }
 .w3_banner_info {
     margin: 13em 0 0em;
