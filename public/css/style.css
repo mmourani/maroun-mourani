@@ -1341,15 +1341,14 @@ img.zoom-img:hover {
 		width: 42%;
 	}
     .banner {
-        display:block;
-        margin:auto;
-        width:900px;
+        height:600px;
+        width:100%;
+        position:relative;
         background: url(../images/maroun2.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
-        height:125%;
+        background-size: cover;    
     }
 	.count-agileits h3.heading {
 		width: 77%;
@@ -1402,15 +1401,14 @@ img.zoom-img:hover {
 	}
 
     .banner {
-        display:block;
-        margin:auto;
-        width:900px;
+        height:600px;
+        width:100%;
+        position:relative;
         background: url(../images/maroun2.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
-        background-size: cover;
-        height:125%;
+        background-size: cover;    
     }
 
 	.education .col-md-6, .experience .col-md-6 {
