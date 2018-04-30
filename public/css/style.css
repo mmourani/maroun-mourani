@@ -1036,13 +1036,6 @@ img.zoom-img:hover {
 	.aitslogow3ls {
 		width: 55%;
 	}
-	.banner {
-          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-	}
 	.gallery-grids {
 		padding: 0 5px;
 	}
@@ -1072,13 +1065,6 @@ img.zoom-img:hover {
 		width: 25%;
 		left: 35%;
 	}
-	.banner {
-          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-	}	
 	.rw-sentence span {
 		padding-top: 3px;
 	}
@@ -1124,13 +1110,6 @@ img.zoom-img:hover {
 	}
 	.count-grid h5 {
 		font-size: 1em;
-	}
-	.banner {
-          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
 	}
 }
 @media screen and (max-width: 640px){
@@ -1282,14 +1261,6 @@ img.zoom-img:hover {
 	.aitslogow3ls {
 		width: 38%;
 	}
-    .banner {
-          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-          background-color: #464646;
-    }
 	.wthreecontact {
 		width: 34%;
 	}
@@ -1346,14 +1317,6 @@ img.zoom-img:hover {
 	.education .col-md-6,.experience .col-md-6 {
 		padding: 0;
 	}
-    .banner {
-          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-          background-color: #464646;
-    }
 	.count-agileits h3.heading {
 		width: 75%;
 	}
@@ -1384,14 +1347,6 @@ img.zoom-img:hover {
 	}
 	.footer h3 a {
 		font-size: 1.1em;
-	}
-	.banner {
-          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-          background-color: #464646;
 	}
 	h3.heading {
 		margin: 0 auto .5em;
@@ -1432,14 +1387,6 @@ img.zoom-img:hover {
 	}
 	.about h3.heading {
 		width: 50%;
-	}
-	.banner {
-          background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-          -webkit-background-size: cover;
-          -moz-background-size: cover;
-          -o-background-size: cover;
-          background-size: cover;
-          background-color: #464646;
 	}
 	.education .col-md-6, .experience .col-md-6 {
 		padding: 0 15px 0 0;
