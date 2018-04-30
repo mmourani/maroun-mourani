@@ -1341,7 +1341,7 @@ img.zoom-img:hover {
 		width: 42%;
 	}
     .banner {
-        background: url(../images/maroun2.jpg) no-repeat center center fixed;
+        background: url(../images/maroun2.jpg) no-repeat top right fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -1398,7 +1398,7 @@ img.zoom-img:hover {
 	}
 
     .banner {
-        background: url(../images/maroun2.jpg) no-repeat center center fixed;
+        background: url(../images/maroun2.jpg) no-repeat top right fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
