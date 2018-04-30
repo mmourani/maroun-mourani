@@ -92,12 +92,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     <h2 class="rw-sentence">
                     <span>Senior Consultant in</span>
                     <div class="rw-words rw-words-1">
-                        <span>Internatonal BD and Sales</span>
-                        <span>Defense Market in MEA</span>
-                        <span>Blockchain and ICOs</span>
-                        <span>Internet Of Things</span>
-                        <span>Artificial Intelligence</span>
-                        <span>Software Development</span>
+                        <span>BD and Sales</span>
+                        <span>Defense in MEA</span>
+                        <span>Blockchain ICO</span>
+                        <span>IOT</span>
+                        <span>AI</span>
+                        <span>Software Dev</span>
                     </div>
                     </h2>
                     <ul class="social-nav model-3d-0 footer-social w3_agile_social">
