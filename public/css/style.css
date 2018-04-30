@@ -1340,6 +1340,11 @@ img.zoom-img:hover {
 	.gallery h3.heading {
 		width: 42%;
 	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat -180px 0px;
+        background-size: cover;
+        min-height: 375px;
+    }
 	.count-agileits h3.heading {
 		width: 77%;
 	}
@@ -1389,6 +1394,13 @@ img.zoom-img:hover {
 	.about h3.heading {
 		width: 50%;
 	}
+
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat -200px 0px;
+        background-size: cover;
+        min-height: 320px;
+    }
+
 	.education .col-md-6, .experience .col-md-6 {
 		padding: 0 15px 0 0;
 	}
