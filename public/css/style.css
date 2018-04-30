@@ -121,12 +121,9 @@ img{
 
 /* banner */
 .banner {
-  background: url(../images/maroun2.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-color: #F4F4F2;
+    background: url(../images/maroun2.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    min-height:770px;
 }
 .w3_banner_info {
     margin: 13em 0 0em;
@@ -854,15 +851,25 @@ img.zoom-img:hover {
 /*-- //to-top --*/
 
 /* Responsive design */
+
+@media screen and (max-width: 1970px){
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
 @media screen and (max-width: 1440px){
 	.banner {
 		min-height: 700px;
 	}
 }
 @media screen and (max-width: 1366px){
-	.banner {
-		min-height: 670px;
-	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        min-height: 670px;
+    }
 }
 @media screen and (max-width: 1280px){
 	.banner {
@@ -1037,6 +1044,11 @@ img.zoom-img:hover {
 	.aitslogow3ls {
 		width: 55%;
 	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat center center fixed;
+        background-size: cover;
+        min-height: 320px;
+    }
 	.gallery-grids {
 		padding: 0 5px;
 	}
@@ -1066,6 +1078,11 @@ img.zoom-img:hover {
 		width: 25%;
 		left: 35%;
 	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat -140px 0px;
+        background-size: cover;
+        min-height: 470px;
+    }   
 	.rw-sentence span {
 		padding-top: 3px;
 	}
@@ -1112,6 +1129,11 @@ img.zoom-img:hover {
 	.count-grid h5 {
 		font-size: 1em;
 	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat -170px 0px;
+        background-size: cover;
+        min-height: 450px;
+    }
 }
 @media screen and (max-width: 640px){
 	.w3_banner_info {
@@ -1307,6 +1329,11 @@ img.zoom-img:hover {
 	.gallery h3.heading {
 		width: 39%;
 	}
+    .banner {
+        background: url(../images/maroun2.jpg) no-repeat -400px -100px fixed;
+        background-size: cover;
+        min-height: 320px;
+    }
 }
 @media screen and (max-width: 384px){
 	.rw-sentence span {
@@ -1341,14 +1368,9 @@ img.zoom-img:hover {
 		width: 42%;
 	}
     .banner {
-        height:auto;
-        width:auto;
-        position:relative;
-        background: url(../images/maroun2.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;    
+        background: url(../images/maroun2.jpg) no-repeat -400px -100px fixed;
+        background-size: cover;
+        min-height: 320px;
     }
 	.count-agileits h3.heading {
 		width: 77%;
@@ -1401,14 +1423,9 @@ img.zoom-img:hover {
 	}
 
     .banner {
-        height:auto;
-        width:auto;
-        position:relative;
-        background: url(../images/maroun2.jpg) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;    
+        background: url(../images/maroun2.jpg) no-repeat -300px -100px fixed;
+        background-size: cover;
+        min-height: 320px;
     }
 
 	.education .col-md-6, .experience .col-md-6 {
