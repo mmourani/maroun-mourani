@@ -505,11 +505,30 @@ ul.hireme {
     color: #2dde98;
 	padding-right:.5em;
 }
+
+.grid1 i.fa.fa-ambulance {
+    font-size: 36px;
+    color: #2dde98;
+    padding-right:.5em;
+}
+
+.grid1 i.fa.fa-bitcoin {
+    font-size: 36px;
+    color: #2dde98;
+    padding-right:.5em;
+}
 .grid1 i.fa.fa-mobile {
     font-size: 40px;
     color: #00bce4;
 	padding-right:.5em;
 }
+
+.grid1 i.fa.fa-user-secret {
+    font-size: 40px;
+    color: #00bce4;
+    padding-right:.5em;
+}
+
 .grid1 i.fa.fa-line-chart {
     font-size: 36px;
     color: #ed1c24;
@@ -520,6 +539,25 @@ ul.hireme {
     color: #ff4f81;
 	padding-right:.5em;
 }
+
+.grid1 i.fa.fa-graduation-cap {
+    font-size: 36px;
+    color: #ff4f81;
+    padding-right:.5em;
+}
+
+.grid1 i.fa.fa-users {
+    font-size: 36px;
+    color: #ff4f81;
+    padding-right:.5em;
+}
+
+.grid1 i.fa.fa-fighter-jet {
+    font-size: 36px;
+    color: #ff4f81;
+    padding-right:.5em;
+}
+
 .education b, .education strong,.experience b, .experience strong {
     font-weight: bold;
     color: #7d3f98;

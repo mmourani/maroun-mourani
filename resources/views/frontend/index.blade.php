@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>My personal CV on the internet </title>
+<title>Maroun Mourani Career profile</title>
 <!-- custom-theme -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -57,10 +57,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                             <a class="scroll active" href="#agilehome"><i class="fa fa-home"></i><span>Home</span></a>
                             <a class="scroll" href="#about"><i class="fa fa-info"></i><span>About</span></a>
                             <a class="scroll" href="#skills"><i class="fa fa-bar-chart"></i><span>Skills</span></a>
-                            <a class="scroll" href="#gallery"><i class="fa fa-picture-o"></i><span>Portfolio</span></a>
+                            <a class="scroll" href="#testimonials"><i class="fa fa-picture-o"></i><span>Testimonials</span></a>
                             <a class="scroll" href="#education"><i class="fa fa-book"></i><span>Education</span></a>
                             <a class="scroll" href="#experience"><i class="fa fa-university"></i><span>Experience</span></a>
-                            <a class="scroll" href="#stats"><i class="fa fa-laptop"></i><span>Technical Skills</span></a>
                             <a class="scroll" href="#contact"><i class="fa fa-phone"></i><span>Contact Me</span></a>
                         </div>
                     </nav>
@@ -72,7 +71,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <p>MENU</p>
             </div>
             <div class="aitslogow3ls">
-                    <a href="index.blade.php"><div class="agilelogo">My Career</div></a>
+                    <a href="/"><div class="agilelogo">My Career</div></a>
             </div>
             <div class="wthreecontact">
                 <p><a class="scroll" href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> CONTACT ME</a></p>
@@ -104,10 +103,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <li><a href="https://twitter.com/MarounMourani?lang=en" class="twitter"> 
                             <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
                             <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
-                        </li>
-                        <li><a href="https://www.instagram.com/mmourani/" class="instagram">
-                            <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-                            <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
                         </li>
                         <li><a href="https://www.linkedin.com/in/marounmourani/" class="pinterest">
                             <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
@@ -198,15 +193,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Skills -->
 <section class="skills" id="skills">
     <div class="container">
-            <h3 class="heading">Expertise</h3>
+            <h3 class="heading">SKILLS</h3>
         <div class='col-md-8 bar'>
         <p class="bar-p">Dynamic and dedicated business development and marketing professional; with more than twenty years of international experience. Demonstrated success in developing and implementing complex technical solutions in highly competitive markets; known for the ability to routinely exceed expectations.</p>
             <div class="col-md-6 group">
                 <div class='bar_left'>
                     <div class='bar_group'>
                         <div class='bar_group__bar thin' label='international BD and Sales' show_values='false' value='600'></div>
-                        <div class='bar_group__bar thin' label='Blockchain' show_values='false' value='600'></div>
-                        <div class='bar_group__bar thin' label='Software dev' show_values='false' value='600'></div>
+                        <div class='bar_group__bar thin' label='Blockchain Architecture' show_values='false' value='600'></div>
+                        <div class='bar_group__bar thin' label='Software development' show_values='false' value='600'></div>
                         <div class='bar_group__bar thin' label='System solutions' show_values='false' value='600'></div>
                         <div class='bar_group__bar thin' label='Growth Management' show_values='false' value='600'></div>
                         <div class='bar_group__bar thin' label='Budgeting and forecasting' show_values='false' value='600'></div>
@@ -228,7 +223,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <div class='clearfix'></div>
         </div>
         <div class="col-md-4 skillsright">
-            <h3 class="bar-h3">About my Expertise</h3>
+            <h3 class="bar-h3">About my SKILLS</h3>
             <h5 class="bar-p"><i>Proven track record of successfully translating customer needs across several cultures in order to achieve project objectives, able to facilitate communications between stakeholders at all levels. </i></h5>
             <p class="bar-p">Possesses outstanding leadership skills, adept providing the support, direction, and training needed to launch new business endeavors and achieve key operational goals. Effectively manages competing priorities in results driven environments.</p>
         </div>
@@ -354,14 +349,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <h3 class="heading">Education</h3>
             <div class="col-md-6">
                 <div class="grid1">
-                    <h3>Blockchain, Software development and frameworks</h3>
-                    <p>continuous learning and practice of different programming languages and framework. Blockchain development, hyperledger, sawtooth, R3 corda, Openchain, Multichain, quorum, IOTA, Ethereum, CR-20, C, C++, Object Oriented Database, HTML, CSS, PHP, Laravel, front end development, back end development, GO, solidity, kotlin, Java, Open Zeppelin, truffle, Web3.js, Embark, populous raiden, oxchange, bancor and more</p>
+                    <h3><i class="fa fa-bitcoin" aria-hidden="true"></i> Blockchain, Software development and frameworks</h3>
+                    <p>continuous learning and practice of different programming languages and framework. Blockchain development, hyperledger, sawtooth, R3 corda, Openchain, Multichain, quorum, IOTA, Ethereum, CR-20, C, C++, Object Oriented Database, HTML, CSS, PHP, Laravel, front and back end development, GO, solidity, kotlin, Java, Open Zeppelin, truffle, Web3.js, Embark, populous raiden, oxchange, bancor and more</p>
                     <h4><b>Year</b> : continuous Learning</h4>
                 </div>
             </div>
         <div class="col-md-6">
             <div class="grid1">
-                <h3>TAS Leadership program</h3>
+                <h3><i class="fa fa-users" aria-hidden="true"></i> TAS and Miller Heiman Leadership programs</h3>
                 <p>Intensive leadership development experience that improved my ability to help organization discover opportunities and sustain success in a complex region. Structured to maximize learning and minimize time away from work, enables organizations to prepare leaders for the challenges ahead while maintaining business momentum. At the same time, the program connects you with an exceptional network of experienced, driven peers from across the Middle East and beyond.</p>
                 <h4><b>Year</b> : 2010</h4>
             </div>
@@ -370,14 +365,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="educationbottom">
         <div class="col-md-6">
             <div class="grid1">
-                <h3>Cyber Security Master Courses</h3>
+                <h3><i class="fa fa-user-secret" aria-hidden="true"></i> Cyber Security Master Courses</h3>
                 <p>Develop expertise to make informed and strategic decisions in the context of cybersecurity of computer networks.Apply best practices in the defense, protection and maintenance of the integrity of commercial and institutional computer networks on the Internet.</p>
                 <h4><b>Year</b> : 2013</h4>
             </div>
         </div>
             <div class="col-md-6">
                 <div class="grid1 lastgrid">
-                    <h3>Bachelor Degree in Computer engineering</h3>
+                    <h3><i class="fa fa-graduation-cap" aria-hidden="true"></i> Bachelor Degree in Computer engineering</h3>
                     <p>Computer engineering is a discipline that integrates several fields of computer science and electronics engineering required to develop computer hardware and software.Training in electronic engineering (or electrical engineering), software design, and hardware–software integration.This field of engineering not only focuses on how computer systems themselves work, but also how they integrate into the larger picture.</p>
                     <h4><b>Year</b> : 1992-1996</h4>
                 </div>
@@ -394,86 +389,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             <h3 class="heading">Experience</h3>
         <div class="col-md-6">
             <div class="grid1">
-                <h3><i class="fa fa-laptop" aria-hidden="true"></i> Web Developer</h3>
-                <p>Dignissim elit at ligula laoreet iaculis. Sed urna purus, 
-                    convallis sedrhon cus eget, bibendum idtortor. Donec libero tellus</p>
-                <h4><b>Year</b> : 2011-2013</h4>
+                <h3><i class="fa fa-ambulance" aria-hidden="true"></i> Senior Consultant</h3>
+                <p> Working as a International Senior Consultant in the field of Blockchain, Fintech, senior advisor, Defense, ICT, IOT. Activities include management consulting, BD and Sales, Technical pre-sales, Technical development and programming, program management, tender submission and proposal preparation, analysis, Marketing startegy and strategic plan. covering at the moment Europe, Middle East, Africa and Asia</p>
+                <h4><b>Year</b> : 2011- to date</h4>
             </div>
         </div>
         <div class="col-md-6">
             <div class="grid1">
-                <h3><i class="fa fa-camera" aria-hidden="true"></i> Senior UI/UX designer</h3>
-                <p>Dignissim elit at ligula laoreet iaculis. Sed urna purus, 
-                    convallis sedrhon cus eget, bibendum idtortor. Donec libero tellus</p>
-                <h4><b>Year</b> : 2011-2013</h4>
+                <h3><i class="fa fa-fighter-jet" aria-hidden="true"></i> Regional Manager</h3>
+                <p>Maintained responsibility for major contract sales and opportunities with military and government organizations in the Middle East. Managed sales of products and services for various customers like Harris, Ultra Electronics, CMC Electronics, CallNet entreprises</p>
+                <h4><b>Year</b> : 2002-2011</h4>
             </div>
         </div>
         <div class='clearfix'></div>
         <div class="educationbottom">
             <div class="col-md-6">
                 <div class="grid1">
-                    <h3><i class="fa fa-mobile" aria-hidden="true"></i> Mobile App Developer </h3>
-                    <p>Dignissim elit at ligula laoreet iaculis. Sed urna purus, 
-                        convallis sedrhon cus eget, bibendum idtortor. Donec libero tellus</p>
-                    <h4><b>Year</b> : 2011-2013</h4>
+                    <h3><i class="fa fa-mobile" aria-hidden="true"></i> Senior Developer and architect </h3>
+                    <p> worked on various projects: Software Defined Radios, Unix and Linux servers deployment, Intranet architecture and deployment, VOIP server development, wireless Point of sales system and more</p>
+                    <h4><b>Year</b> : 1997 - 2002</h4>
                     
                 </div>
             </div>
-            <div class="col-md-6">
-                <div class="grid1 lastgrid">
-                    <h3><i class="fa fa-line-chart" aria-hidden="true"></i> Graphic Designer</h3>
-                    <p>Dignissim elit at ligula laoreet iaculis. Sed urna purus, 
-                        convallis sedrhon cus eget, bibendum idtortor. Donec libero tellus</p>
-                    <h4><b>Year</b> : 2011-2013</h4>
-                </div>
-            </div>
-            <div class='clearfix'></div>
         </div>
     </div>
 </div>
 <!-- //Work experience -->
-
-<!-- Technical Skills -->
-<div class="count-agileits" id="stats">
-    <div class="container">
-        <h3 class="heading">Technical Skills</h3>
-                    <div class="count-grids">
-                    <div class="count-bgcolor-w3ls">
-                        <div class="col-md-3 count-grid">
-                            <div class="count hvr-bounce-to-bottom">
-                                <div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='120' data-delay='1' data-increment="1">120</div>
-                                    <span></span>
-                                    <h5>Projects done</h5>
-                            </div>
-                        </div>
-                        <div class="col-md-3 count-grid">
-                            <div class="count hvr-bounce-to-bottom">
-                                <div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='172' data-delay='1' data-increment="1">172</div>
-                                    <span></span>
-                                    <h5>New Companies</h5>
-                            </div>
-                        </div>
-                        <div class="col-md-3 count-grid">
-                            <div class="count hvr-bounce-to-bottom">
-                                <div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='102' data-delay='1' data-increment="1">102</div>
-                                    <span></span>
-                                    <h5>Web designs</h5>
-                            </div>
-                        </div>
-                        <div class="col-md-3 count-grid">
-                            <div class="count hvr-bounce-to-bottom">
-                                <div class='numscroller numscroller-big-bottom' data-slno='1' data-min='0' data-max='156' data-delay='1' data-increment="1">156</div>
-                                    <span></span>
-                                    <h5>Happy clients</h5>
-                                </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        </div>
-                    </div>
-    </div>
-</div>
-
-<!-- Technical Skills -->
 
 <!-- contact -->
 <div class="contact" id="contact">
@@ -535,7 +476,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
         </div>
         <div class="col-md-4 map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31909.33437743319!2d103.8212862717648!3d1.3766002857431643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da16c40ac82661%3A0x500f7acaedaa550!2sAng+Mo+Kio%2C+Singapore!5e0!3m2!1sen!2sin!4v1497852510740"></iframe>
+            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJx_06TzNoXz4R1peycGYLoCk&key=AIzaSyAJX0kITZRzwsP0LGnVNblhVUCVuBmdF8g" allowfullscreen></iframe>
         </div>
         <div class="clearfix"></div>
     </div>
@@ -546,15 +487,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <div class="footer">
     <div class="container">
         <h3><a href="index.html">My Career</a></h3>
-        <p>© 2017 My Career. All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
                     <ul class="social-nav model-3d-0 footer-social w3_agile_social">
                         <li><a href="https://twitter.com/MarounMourani?lang=en" class="twitter"> 
                             <div class="front"><i class="fa fa-twitter" aria-hidden="true"></i></div>
                             <div class="back"><i class="fa fa-twitter" aria-hidden="true"></i></div></a>
-                        </li>
-                        <li><a href="https://www.instagram.com/mmourani/" class="instagram">
-                            <div class="front"><i class="fa fa-instagram" aria-hidden="true"></i></div>
-                            <div class="back"><i class="fa fa-instagram" aria-hidden="true"></i></div></a>
                         </li>
                         <li><a href="https://www.linkedin.com/in/marounmourani/" class="pinterest">
                             <div class="front"><i class="fa fa-linkedin" aria-hidden="true"></i></div>
