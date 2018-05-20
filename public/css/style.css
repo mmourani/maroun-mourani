@@ -59,6 +59,13 @@ img{
 	border-right: 1px solid #a20204;
 }
 
+.agileinforegister {
+    width: 10%;
+    float: left;
+    height: 65px;
+    border-right: 1px solid #a20204;
+}
+
 .agileinfomenu p {
 	font-size: 20px;
 	padding-top: 19px;
@@ -67,10 +74,18 @@ img{
     color: #a20204;
 }
 
+.agileinforegister p {
+    font-size: 20px;
+    padding-top: 19px;
+    padding-left: 20px;
+    height: 100%;
+    color: #a20204;
+}
+
 .aitslogow3ls {
-	width: 70%;
+	width: 50%;
 	float: left;
-	height: 80px;
+	height: 65px;
 	text-align: center;
 }
 
@@ -1040,6 +1055,11 @@ img.zoom-img:hover {
 	.agileinfomenu {
 		width: 15%;
 	}
+
+    .agileinforegister {
+        width: 15%;
+    }
+
 	.aitslogow3ls {
 		width: 60%;
 	}
@@ -1066,7 +1086,7 @@ img.zoom-img:hover {
 
 }
 @media screen and (max-width: 800px){
-	.agiletopbar,.wthreenavigation,.agileinfomenu,.wthreecontact,.aitslogow3ls {
+	.agiletopbar,.wthreenavigation,.agileinfomenu,.agileinforegister,.wthreecontact,.aitslogow3ls {
 		height: 55px;
 	}
 	.agilelogo{
@@ -1078,9 +1098,15 @@ img.zoom-img:hover {
 	.menu-button {
 		margin: 0.2em 1em;
 	}
+
 	.agileinfomenu p {
 		padding-top: 14px;
 	}
+
+    .agileinforegister p {
+        padding-top: 14px;
+    }
+
 	.wthreecontact p {
 		padding-top: 14px;
 	}
@@ -1130,13 +1156,18 @@ img.zoom-img:hover {
 	.agileinfomenu {
 		width: 18%;
 	}
+
+    .agileinforegister {
+        width: 18%;
+    }
+
 	.aitslogow3ls {
 		width: 48%;
 	}
 	.wthreecontact {
 		width: 29%;
 	}
-	.agiletopbar, .wthreenavigation, .agileinfomenu, .wthreecontact, .aitslogow3ls {
+	.agiletopbar, .wthreenavigation, .agileinfomenu,.agileinforegister .wthreecontact, .aitslogow3ls {
 		height: 50px;
 	}
 	.agilelogo {
@@ -1152,6 +1183,11 @@ img.zoom-img:hover {
 		font-size: 18px;
 		padding-left: 40px;
 	}
+
+    .agileinforegister p {
+        font-size: 18px;
+        padding-left: 40px;
+    }
 	.menu-wrap {
 		width: 225px;
 		z-index: 99999;
@@ -1247,6 +1283,12 @@ img.zoom-img:hover {
 		font-size: 14px;
 		padding-left: 32px;
 	}
+
+    .agileinforegister p {
+        font-size: 14px;
+        padding-left: 32px;
+    }
+
 	.agilelogo {
 		width: 30%;
 		left: 33%;
@@ -1304,6 +1346,10 @@ img.zoom-img:hover {
 	.agileinfomenu {
 		width: 23%;
 	}
+    .agileinforegister {
+        width: 23%;
+    }
+
 	ul.address li ul.agileits-address-text li:nth-child(1) {
 		width: 37%;
 	}
@@ -1359,6 +1405,7 @@ img.zoom-img:hover {
 	.gallery h3.heading {
 		width: 39%;
 	}
+
 }
 @media screen and (max-width: 384px){
 	.rw-sentence span {
@@ -1379,6 +1426,11 @@ img.zoom-img:hover {
 	.clients h3, .skillsright h3.bar-h3 {
 		font-size: 20px;
 	}
+
+    .agileinfomenu p {
+        padding-left: 23px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 375px)
               and (-webkit-min-device-pixel-ratio: 2)
@@ -1404,6 +1456,10 @@ img.zoom-img:hover {
 	h3.heading {
 		margin: 0 auto .5em;
 	}
+    .agileinfomenu p {
+        padding-left: 23px;
+        font-size: 10px;
+    }
 }
 @media screen and (max-width: 320px)
               and (-webkit-min-device-pixel-ratio: 2)
@@ -1413,7 +1469,13 @@ img.zoom-img:hover {
 	}
 	.agileinfomenu p {
 		padding-left: 23px;
+        font-size: 10px;
 	}
+
+    .agileinforegister p {
+        padding-left: 23px;
+    }
+
 	.aitslogow3ls a {
 		font-size: 22px;
 	}

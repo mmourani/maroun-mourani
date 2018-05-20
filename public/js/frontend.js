@@ -1660,7 +1660,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
-  * Bootstrap v4.1.0 (https://getbootstrap.com/)
+  * Bootstrap v4.1.1 (https://getbootstrap.com/)
   * Copyright 2011-2018 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
@@ -1731,7 +1731,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.0): util.js
+   * Bootstrap (v4.1.1): util.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -1864,7 +1864,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.0): alert.js
+   * Bootstrap (v4.1.1): alert.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -1876,7 +1876,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
      * ------------------------------------------------------------------------
      */
     var NAME = 'alert';
-    var VERSION = '4.1.0';
+    var VERSION = '4.1.1';
     var DATA_KEY = 'bs.alert';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -1913,9 +1913,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
       // Public
       _proto.close = function close(element) {
-        element = element || this._element;
+        var rootElement = this._element;
 
-        var rootElement = this._getRootElement(element);
+        if (element) {
+          rootElement = this._getRootElement(element);
+        }
 
         var customEvent = this._triggerCloseEvent(rootElement);
 
@@ -2037,7 +2039,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.0): button.js
+   * Bootstrap (v4.1.1): button.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -2049,7 +2051,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
      * ------------------------------------------------------------------------
      */
     var NAME = 'button';
-    var VERSION = '4.1.0';
+    var VERSION = '4.1.1';
     var DATA_KEY = 'bs.button';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -2201,7 +2203,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.0): carousel.js
+   * Bootstrap (v4.1.1): carousel.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -2213,7 +2215,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
      * ------------------------------------------------------------------------
      */
     var NAME = 'carousel';
-    var VERSION = '4.1.0';
+    var VERSION = '4.1.1';
     var DATA_KEY = 'bs.carousel';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -2702,7 +2704,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.0): collapse.js
+   * Bootstrap (v4.1.1): collapse.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -2714,7 +2716,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
      * ------------------------------------------------------------------------
      */
     var NAME = 'collapse';
-    var VERSION = '4.1.0';
+    var VERSION = '4.1.1';
     var DATA_KEY = 'bs.collapse';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -2985,7 +2987,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
           var $this = $$$1(this);
           var data = $this.data(DATA_KEY);
 
-          var _config = _objectSpread({}, Default, $this.data(), typeof config === 'object' && config);
+          var _config = _objectSpread({}, Default, $this.data(), typeof config === 'object' && config ? config : {});
 
           if (!data && _config.toggle && /show|hide/.test(config)) {
             _config.toggle = false;
@@ -3062,7 +3064,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.0): dropdown.js
+   * Bootstrap (v4.1.1): dropdown.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -3074,7 +3076,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
      * ------------------------------------------------------------------------
      */
     var NAME = 'dropdown';
-    var VERSION = '4.1.0';
+    var VERSION = '4.1.1';
     var DATA_KEY = 'bs.dropdown';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -3544,7 +3546,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.0): modal.js
+   * Bootstrap (v4.1.1): modal.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -3556,7 +3558,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
      * ------------------------------------------------------------------------
      */
     var NAME = 'modal';
-    var VERSION = '4.1.0';
+    var VERSION = '4.1.1';
     var DATA_KEY = 'bs.modal';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -4032,7 +4034,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         return this.each(function () {
           var data = $$$1(this).data(DATA_KEY);
 
-          var _config = _objectSpread({}, Modal.Default, $$$1(this).data(), typeof config === 'object' && config);
+          var _config = _objectSpread({}, Default, $$$1(this).data(), typeof config === 'object' && config ? config : {});
 
           if (!data) {
             data = new Modal(this, _config);
@@ -4122,7 +4124,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.0): tooltip.js
+   * Bootstrap (v4.1.1): tooltip.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -4134,7 +4136,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
      * ------------------------------------------------------------------------
      */
     var NAME = 'tooltip';
-    var VERSION = '4.1.0';
+    var VERSION = '4.1.1';
     var DATA_KEY = 'bs.tooltip';
     var EVENT_KEY = "." + DATA_KEY;
     var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -4639,7 +4641,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       };
 
       _proto._getConfig = function _getConfig(config) {
-        config = _objectSpread({}, this.constructor.Default, $$$1(this.element).data(), config);
+        config = _objectSpread({}, this.constructor.Default, $$$1(this.element).data(), typeof config === 'object' && config ? config : {});
 
         if (typeof config.delay === 'number') {
           config.delay = {
@@ -4789,7 +4791,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.0): popover.js
+   * Bootstrap (v4.1.1): popover.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -4801,7 +4803,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
      * ------------------------------------------------------------------------
      */
     var NAME = 'popover';
-    var VERSION = '4.1.0';
+    var VERSION = '4.1.1';
     var DATA_KEY = 'bs.popover';
     var EVENT_KEY = "." + DATA_KEY;
     var JQUERY_NO_CONFLICT = $$$1.fn[NAME];
@@ -4986,7 +4988,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.0): scrollspy.js
+   * Bootstrap (v4.1.1): scrollspy.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -4998,7 +5000,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
      * ------------------------------------------------------------------------
      */
     var NAME = 'scrollspy';
-    var VERSION = '4.1.0';
+    var VERSION = '4.1.1';
     var DATA_KEY = 'bs.scrollspy';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -5125,7 +5127,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
       _proto._getConfig = function _getConfig(config) {
-        config = _objectSpread({}, Default, config);
+        config = _objectSpread({}, Default, typeof config === 'object' && config ? config : {});
 
         if (typeof config.target !== 'string') {
           var id = $$$1(config.target).attr('id');
@@ -5298,7 +5300,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.1.0): tab.js
+   * Bootstrap (v4.1.1): tab.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -5310,7 +5312,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
      * ------------------------------------------------------------------------
      */
     var NAME = 'tab';
-    var VERSION = '4.1.0';
+    var VERSION = '4.1.1';
     var DATA_KEY = 'bs.tab';
     var EVENT_KEY = "." + DATA_KEY;
     var DATA_API_KEY = '.data-api';
@@ -5546,7 +5548,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   /**
    * --------------------------------------------------------------------------
-   * Bootstrap (v4.0.0): index.js
+   * Bootstrap (v4.1.1): index.js
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
    * --------------------------------------------------------------------------
    */
@@ -38557,7 +38559,7 @@ process.umask = function() { return 0; };
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
-* sweetalert2 v7.19.2
+* sweetalert2 v7.20.6
 * Released under the MIT License.
 */
 (function (global, factory) {
@@ -38749,7 +38751,7 @@ var uniqueArray = function uniqueArray(arr) {
  */
 var formatInputOptions = function formatInputOptions(inputOptions) {
   var result = [];
-  if (inputOptions instanceof Map) {
+  if (typeof Map !== 'undefined' && inputOptions instanceof Map) {
     inputOptions.forEach(function (value, key) {
       result.push([key, value]);
     });
@@ -38816,15 +38818,21 @@ var DismissReason = Object.freeze({
   timer: 'timer'
 });
 
-var version = "7.19.2";
+var version = "7.20.6";
 
 var argsToParams = function argsToParams(args) {
   var params = {};
   switch (_typeof(args[0])) {
     case 'string':
       ['title', 'html', 'type'].forEach(function (name, index) {
-        if (args[index] !== undefined) {
-          params[name] = args[index];
+        switch (_typeof(args[index])) {
+          case 'string':
+            params[name] = args[index];
+            break;
+          case 'undefined':
+            break;
+          default:
+            error('Unexpected type of ' + name + '! Expected "string", got ' + _typeof(args[index]));
         }
       });
       break;
@@ -38869,7 +38877,6 @@ var iconTypes = prefix(['success', 'warning', 'info', 'question', 'error']);
 
 // Remember state in cases where opening and handling a modal will fiddle with it.
 var states = {
-  previousActiveElement: null,
   previousBodyPadding: null
 };
 
@@ -38952,19 +38959,6 @@ var removeStyleProperty = function removeStyleProperty(elem, property) {
     elem.style.removeProperty(property);
   } else {
     elem.style.removeAttribute(property);
-  }
-};
-
-// Reset previous window keydown handler and focued element
-var resetPrevState = function resetPrevState() {
-  if (states.previousActiveElement && states.previousActiveElement.focus) {
-    var x = window.scrollX;
-    var y = window.scrollY;
-    states.previousActiveElement.focus();
-    if (typeof x !== 'undefined' && typeof y !== 'undefined') {
-      // IE doesn't have scrollX/scrollY support
-      window.scrollTo(x, y);
-    }
   }
 };
 
@@ -39199,8 +39193,8 @@ var fixScrollbar = function fixScrollbar() {
   // if the body has overflow
   if (document.body.scrollHeight > window.innerHeight) {
     // add padding so the content doesn't shift after removal of scrollbar
-    states.previousBodyPadding = document.body.style.paddingRight;
-    document.body.style.paddingRight = measureScrollbar() + 'px';
+    states.previousBodyPadding = parseInt(window.getComputedStyle(document.body).getPropertyValue('padding-right'));
+    document.body.style.paddingRight = states.previousBodyPadding + measureScrollbar() + 'px';
   }
 };
 
@@ -39232,6 +39226,23 @@ var undoIOSfix = function undoIOSfix() {
 
 var globalState = {};
 
+// Restore previous active (focused) element
+var restoreActiveElement = function restoreActiveElement() {
+  if (globalState.previousActiveElement && globalState.previousActiveElement.focus) {
+    var previousActiveElement = globalState.previousActiveElement;
+    globalState.previousActiveElement = null;
+    var x = window.scrollX;
+    var y = window.scrollY;
+    setTimeout(function () {
+      previousActiveElement.focus && previousActiveElement.focus();
+    }, 100); // issues/900
+    if (typeof x !== 'undefined' && typeof y !== 'undefined') {
+      // IE doesn't have scrollX/scrollY support
+      window.scrollTo(x, y);
+    }
+  }
+};
+
 /*
  * Global function to close sweetAlert
  */
@@ -39248,15 +39259,14 @@ var close = function close(onClose, onAfterClose) {
 
   removeClass(popup, swalClasses.show);
   addClass(popup, swalClasses.hide);
-  clearTimeout(popup.timeout);
-
-  if (!isToast()) {
-    resetPrevState();
-    window.onkeydown = globalState.previousWindowKeyDown;
-    globalState.windowOnkeydownOverridden = false;
-  }
 
   var removePopupAndResetState = function removePopupAndResetState() {
+    if (!isToast()) {
+      restoreActiveElement();
+      window.onkeydown = globalState.previousWindowKeyDown;
+      globalState.windowOnkeydownOverridden = false;
+    }
+
     if (container.parentNode) {
       container.parentNode.removeChild(container);
     }
@@ -39326,7 +39336,14 @@ function withNoNewKeyword(ParentSwal) {
     Object.getPrototypeOf(NoNewKeywordSwal).apply(this, args);
   };
   NoNewKeywordSwal.prototype = _extends(Object.create(ParentSwal.prototype), { constructor: NoNewKeywordSwal });
-  Object.setPrototypeOf(NoNewKeywordSwal, ParentSwal);
+
+  if (typeof Object.setPrototypeOf === 'function') {
+    Object.setPrototypeOf(NoNewKeywordSwal, ParentSwal);
+  } else {
+    // Android 4.4
+    // eslint-disable-next-line
+    NoNewKeywordSwal.__proto__ = ParentSwal;
+  }
   return NoNewKeywordSwal;
 }
 
@@ -39656,6 +39673,40 @@ var staticMethods = Object.freeze({
  * Once we have the changes from that PR in Babel, and our core class fits reasonable in *one module*
  *   then we can use that language feature.
  */
+
+// WeakMap polyfill, needed for Android 4.4
+// Related issue: https://github.com/sweetalert2/sweetalert2/issues/1071
+if (typeof window !== 'undefined' && typeof window.WeakMap !== 'function') {
+  // https://github.com/Riim/symbol-polyfill/blob/master/index.js
+  var idCounter = 0;
+  window.Symbol = function _Symbol(key) {
+    return '__' + key + '_' + Math.floor(Math.random() * 1e9) + '_' + ++idCounter + '__';
+  };
+  Symbol.iterator = Symbol('Symbol.iterator');
+
+  // http://webreflection.blogspot.fi/2015/04/a-weakmap-polyfill-in-20-lines-of-code.html
+  window.WeakMap = function (s, dP, hOP) {
+    function WeakMap() {
+      dP(this, s, { value: Symbol('WeakMap') });
+    }
+    WeakMap.prototype = {
+      'delete': function del(o) {
+        delete o[this[s]];
+      },
+      get: function get(o) {
+        return o[this[s]];
+      },
+      has: function has(o) {
+        return hOP.call(o, this[s]);
+      },
+      set: function set(o, v) {
+        dP(o, this[s], { configurable: true, value: v });
+      }
+    };
+    return WeakMap;
+  }(Symbol('WeakMap'), Object.defineProperty, {}.hasOwnProperty);
+}
+
 var privateProps = {
   promise: new WeakMap(),
   innerParams: new WeakMap(),
@@ -39793,13 +39844,13 @@ function resetValidationError() {
 }
 
 var defaultInputValidators = {
-  email: function email(string) {
-    return (/^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9-]{2,24}$/.test(string) ? Promise.resolve() : Promise.reject('Invalid email address')
+  email: function email(string, extraParams) {
+    return (/^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9.-]+\.[a-zA-Z0-9-]{2,24}$/.test(string) ? Promise.resolve() : Promise.reject(extraParams && extraParams.validationMessage ? extraParams.validationMessage : 'Invalid email address')
     );
   },
-  url: function url(string) {
+  url: function url(string, extraParams) {
     // taken from https://stackoverflow.com/a/3809435/1331425
-    return (/^https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)$/.test(string) ? Promise.resolve() : Promise.reject('Invalid URL')
+    return (/^https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_+.~#?&//=]*)$/.test(string) ? Promise.resolve() : Promise.reject(extraParams && extraParams.validationMessage ? extraParams.validationMessage : 'Invalid URL')
     );
   }
 };
@@ -40130,7 +40181,9 @@ var openPopup = function openPopup(animation, onBeforeOpen, onOpen) {
     fixScrollbar();
     iOSfix();
   }
-  states.previousActiveElement = document.activeElement;
+  if (!globalState.previousActiveElement) {
+    globalState.previousActiveElement = document.activeElement;
+  }
   if (onOpen !== null && typeof onOpen === 'function') {
     setTimeout(function () {
       onOpen(popup);
@@ -40147,6 +40200,9 @@ function _main(userParams) {
   setParameters(innerParams);
   Object.freeze(innerParams);
   privateProps.innerParams.set(this, innerParams);
+
+  // clear the previous timer
+  clearTimeout(globalState.timeout);
 
   var domCache = {
     popup: getPopup(),
@@ -40188,7 +40244,7 @@ function _main(userParams) {
 
     // Close on timer
     if (innerParams.timer) {
-      domCache.popup.timeout = setTimeout(function () {
+      globalState.timeout = setTimeout(function () {
         return dismissWith('timer');
       }, innerParams.timer);
     }
@@ -40413,6 +40469,8 @@ function _main(userParams) {
           return el.focus();
         }
       }
+      // no visible focusable elements, focus the popup
+      domCache.popup.focus();
     };
 
     var handleKeyDown = function handleKeyDown(event) {
@@ -40422,7 +40480,7 @@ function _main(userParams) {
       ];
 
       if (e.key === 'Enter' && !e.isComposing) {
-        if (e.target === _this.getInput()) {
+        if (e.target.outerHTML === _this.getInput().outerHTML) {
           if (['textarea', 'file'].indexOf(innerParams.input) !== -1) {
             return; // do not submit
           }
@@ -41693,6 +41751,7 @@ if (typeof window !== 'undefined' && window.Sweetalert2){  window.swal = window.
 "    .swal2-popup .swal2-validationerror::before {\n" +
 "      display: inline-block;\n" +
 "      width: 1.5em;\n" +
+"      min-width: 1.5em;\n" +
 "      height: 1.5em;\n" +
 "      margin: 0 .625em;\n" +
 "      border-radius: 50%;\n" +
