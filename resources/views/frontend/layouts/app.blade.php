@@ -54,15 +54,11 @@
 
     </head>
     <body>
-        <div id="app">
-            @include('includes.partials.logged-in-as')
-            @include('frontend.includes.nav2')
-            @yield('banner')
-            <div class="container">
-                @yield('content')
-                @include('includes.partials.messages')
-            </div><!-- container -->
-        </div><!-- #app -->
+        @include('includes.partials.logged-in-as')
+        @include('frontend.includes.nav2')
+        @yield('banner')
+        @yield('content')
+        @include('includes.partials.messages')
         @include('frontend.includes.footer')
 
         <!-- Scripts -->
