@@ -68,7 +68,7 @@
             </div>
 
             <div class="wthreecontact">
-                <p><a class="scroll" href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> CONTACT ME</a></p>
+                <p><a class="scroll" href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> CONTACT</a></p>
             </div>
 
         </div>

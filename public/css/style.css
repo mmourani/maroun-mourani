@@ -5,9 +5,9 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 html, body{
+    background:#ffffff;
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
-	background:#ffffff;
 	margin: 0;
 }
 p,ul li,ol li{
@@ -59,12 +59,6 @@ img{
 	border-right: 1px solid #a20204;
 }
 
-.agileinforegister {
-    width: 10%;
-    float: left;
-    height: 65px;
-    border-right: 1px solid #a20204;
-}
 
 .agileinfomenu p {
 	font-size: 20px;
@@ -74,18 +68,10 @@ img{
     color: #a20204;
 }
 
-.agileinforegister p {
-    font-size: 20px;
-    padding-top: 19px;
-    padding-left: 20px;
-    height: 100%;
-    color: #a20204;
-}
-
 .aitslogow3ls {
-	width: 50%;
+	width: 70%;
 	float: left;
-	height: 65px;
+	height: 80px;
 	text-align: center;
 }
 
@@ -137,6 +123,8 @@ img{
 /* banner */
 .banner {
         background-color: #464646;
+        background-size: cover;
+        min-height:770px;
 }
 .w3_banner_info {
     margin: 13em 0 0em;
@@ -933,6 +921,9 @@ img.zoom-img:hover {
 	}
 }
 @media screen and (max-width: 1366px){
+    .banner {
+        min-height: 670px;
+    }
 }
 @media screen and (max-width: 1280px){
 	.banner {
@@ -1056,10 +1047,6 @@ img.zoom-img:hover {
 		width: 15%;
 	}
 
-    .agileinforegister {
-        width: 15%;
-    }
-
 	.aitslogow3ls {
 		width: 60%;
 	}
@@ -1083,10 +1070,13 @@ img.zoom-img:hover {
 	}
 }
 @media screen and (max-width: 900px){
+    .banner {
+        min-height: 500px;
+    }
 
 }
 @media screen and (max-width: 800px){
-	.agiletopbar,.wthreenavigation,.agileinfomenu,.agileinforegister,.wthreecontact,.aitslogow3ls {
+	.agiletopbar,.wthreenavigation,.agileinfomenu,.wthreecontact,.aitslogow3ls {
 		height: 55px;
 	}
 	.agilelogo{
@@ -1103,10 +1093,6 @@ img.zoom-img:hover {
 		padding-top: 14px;
 	}
 
-    .agileinforegister p {
-        padding-top: 14px;
-    }
-
 	.wthreecontact p {
 		padding-top: 14px;
 	}
@@ -1116,6 +1102,9 @@ img.zoom-img:hover {
 	.aitslogow3ls {
 		width: 55%;
 	}
+    .banner {
+        background-size: cover;
+    }
 	.gallery-grids {
 		padding: 0 5px;
 	}
@@ -1145,6 +1134,10 @@ img.zoom-img:hover {
 		width: 25%;
 		left: 35%;
 	}
+    .banner {
+        background-size: cover;
+        min-height: 470px;
+    }   
 	.rw-sentence span {
 		padding-top: 3px;
 	}
@@ -1157,17 +1150,13 @@ img.zoom-img:hover {
 		width: 18%;
 	}
 
-    .agileinforegister {
-        width: 18%;
-    }
-
 	.aitslogow3ls {
 		width: 48%;
 	}
 	.wthreecontact {
 		width: 29%;
 	}
-	.agiletopbar, .wthreenavigation, .agileinfomenu,.agileinforegister .wthreecontact, .aitslogow3ls {
+	.agiletopbar, .wthreenavigation, .agileinfomenu,.wthreecontact, .aitslogow3ls {
 		height: 50px;
 	}
 	.agilelogo {
@@ -1184,10 +1173,6 @@ img.zoom-img:hover {
 		padding-left: 40px;
 	}
 
-    .agileinforegister p {
-        font-size: 18px;
-        padding-left: 40px;
-    }
 	.menu-wrap {
 		width: 225px;
 		z-index: 99999;
@@ -1201,6 +1186,10 @@ img.zoom-img:hover {
 	.count-grid h5 {
 		font-size: 1em;
 	}
+    .banner {
+        background-size: cover;
+        min-height: 450px;
+    }
 }
 @media screen and (max-width: 640px){
 	.w3_banner_info {
@@ -1284,10 +1273,6 @@ img.zoom-img:hover {
 		padding-left: 32px;
 	}
 
-    .agileinforegister p {
-        font-size: 14px;
-        padding-left: 32px;
-    }
 
 	.agilelogo {
 		width: 30%;
@@ -1346,9 +1331,6 @@ img.zoom-img:hover {
 	.agileinfomenu {
 		width: 23%;
 	}
-    .agileinforegister {
-        width: 23%;
-    }
 
 	ul.address li ul.agileits-address-text li:nth-child(1) {
 		width: 37%;
@@ -1453,6 +1435,9 @@ img.zoom-img:hover {
 	.footer h3 a {
 		font-size: 1.1em;
 	}
+    .banner {
+        background-size: cover;
+    }
 	h3.heading {
 		margin: 0 auto .5em;
 	}
@@ -1471,10 +1456,6 @@ img.zoom-img:hover {
 		padding-left: 23px;
         font-size: 10px;
 	}
-
-    .agileinforegister p {
-        padding-left: 23px;
-    }
 
 	.aitslogow3ls a {
 		font-size: 22px;
@@ -1503,6 +1484,9 @@ img.zoom-img:hover {
 	.about h3.heading {
 		width: 50%;
 	}
+    .banner {
+        background-size: cover;
+    }
 
 	.education .col-md-6, .experience .col-md-6 {
 		padding: 0 15px 0 0;
