@@ -67,7 +67,6 @@
                     <a href="/"><div class="agilelogo">My Career</div></a>
             </div>
 
-
         </div>
 
         <div class="clearfix"></div>
