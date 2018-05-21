@@ -67,9 +67,6 @@
                     <a href="/"><div class="agilelogo">My Career</div></a>
             </div>
 
-            <div class="wthreecontact">
-                <p><a class="scroll" href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> CONTACT</a></p>
-            </div>
 
         </div>
 
