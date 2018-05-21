@@ -57,6 +57,7 @@
         @include('includes.partials.logged-in-as')
         @include('frontend.includes.nav2')
         @yield('banner')
+        <div class="clearfix"></div>
         @yield('content')
         @include('includes.partials.messages')
         @include('frontend.includes.footer')
