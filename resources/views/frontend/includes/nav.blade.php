@@ -54,6 +54,10 @@
                 <p>MENU</p>
             </div>
 
+            <div class="aitslogow3ls">
+                        <a href="/"><div class="agilelogo">My Career</div></a>
+            </div>
+
         </div>
 
     </div>
