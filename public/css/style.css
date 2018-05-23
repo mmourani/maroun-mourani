@@ -1408,7 +1408,6 @@ img.zoom-img:hover {
 
     .agileinfomenu p {
         padding-left: 23px;
-        font-size: 10px;
     }
 }
 @media screen and (max-width: 375px)
@@ -1438,20 +1437,12 @@ img.zoom-img:hover {
 	h3.heading {
 		margin: 0 auto .5em;
 	}
-    .agileinfomenu p {
-        padding-left: 23px;
-        font-size: 10px;
-    }
 }
 @media screen and (max-width: 320px)
               and (-webkit-min-device-pixel-ratio: 2)
 {
 	.menu-button {
 		margin: 0.2em 0em;
-	}
-	.agileinfomenu p {
-		padding-left: 23px;
-        font-size: 10px;
 	}
 
 	.aitslogow3ls a {
