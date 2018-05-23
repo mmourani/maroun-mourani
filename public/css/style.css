@@ -44,6 +44,9 @@ img{
     border-bottom: 1px solid #a20204;
     background: #EEE048;
     position: relative;
+}
+
+.main-menu{
     display: flex;
     justify-content:space-between;
 }

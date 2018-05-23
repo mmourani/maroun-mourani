@@ -2,8 +2,7 @@
 <!-- Header -->
         <!-- Navigation -->
     <div class="agiletopbar">
-        <div class="main-menu">
-            <div class="wthreenavigation">
+        <div class="wthreenavigation">
 
                         <div class="menu-wrap">
 
@@ -53,7 +52,9 @@
                         </div>
 
                         <button class="menu-button" id="open-button">Open Menu</button>
-            </div>
+        </div>
+        
+        <div class="main-menu">
             <div class="agileinfomenu">
                 <p>MENU</p>
             </div>

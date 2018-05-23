@@ -57,7 +57,7 @@
     </head>
     <body>
         @include('includes.partials.logged-in-as')
-        @include('frontend.includes.nav2')
+        @include('frontend.includes.nav')
         @yield('banner')
         <div class="clearfix"></div>
         @yield('content')
