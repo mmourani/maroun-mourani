@@ -50,9 +50,9 @@
                 <button class="menu-button" id="open-button">Open Menu</button>
             </div>
 
-                <div class="agileinfomenu">
-                    <p>MENU</p>
-                </div>
+            <div class="agileinfomenu">
+                <p>MENU</p>
+            </div>
 
         </div>
 
