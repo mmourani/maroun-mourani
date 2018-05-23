@@ -45,6 +45,7 @@ img{
     background: #EEE048;
     position: relative;
     display: flex;
+    justify-content:space-between;
 }
 
 .wthreenavigation {
