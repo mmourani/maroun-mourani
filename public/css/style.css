@@ -46,12 +46,6 @@ img{
     position: relative;
 }
 
-.main-menu{
-    display: flex;
-    justify-content:space-between;
-    height: 65px;
-}
-
 .wthreenavigation {
 	width: 5%;
 	height: 65px;
@@ -60,7 +54,7 @@ img{
 .agileinfomenu {
 	width: 10%;
 	height: 65px;
-	border-left: 1px solid #a20204;
+	border-right: 1px solid #a20204;
 }
 
 

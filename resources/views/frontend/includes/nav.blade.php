@@ -50,17 +50,9 @@
                 <button class="menu-button" id="open-button">Open Menu</button>
             </div>
 
-            <div class="main-menu">
-
                 <div class="agileinfomenu">
                     <p>MENU</p>
                 </div>
-
-                <div class="aitslogow3ls">
-                        <a href="/"><div class="agilelogo">My Career</div></a>
-                </div>
-
-            </div>
 
         </div>
 
