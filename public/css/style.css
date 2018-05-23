@@ -9,6 +9,7 @@ html, body{
     font-size: 100%;
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
+    height: 100%;
 }
 p,ul li,ol li{
 	margin:0;
@@ -44,6 +45,7 @@ img{
     border-bottom: 1px solid #a20204;
     background: #EEE048;
     position: relative;
+    align-items: center;
 }
 
 .wthreenavigation {
@@ -52,18 +54,18 @@ img{
 }
 
 .agileinfomenu {
-    width: 10%;
-    float: left;
-    height: 65px;
-    border-right: 1px solid #146eb4;
+	width: 10%;
+	height: 65px;
+	border-right: 1px solid #a20204;
 }
 
+
 .agileinfomenu p {
-    font-size: 20px;
-    padding-top: 19px;
-    padding-left: 35px;
-    height: 100%;
-    color: #146eb4;
+	font-size: 20px;
+	padding-top: 19px;
+	padding-left: 35px;
+	height: 100%;
+    color: #a20204;
 }
 
 .aitslogow3ls {
