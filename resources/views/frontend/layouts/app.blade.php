@@ -62,7 +62,7 @@
         <div class="clearfix"></div>
         @yield('content')
         @include('includes.partials.messages')
-        @include('frontend.includes.footer')
+        @include('frontend.includes.footer') 
 
         <!-- Scripts -->
         @include('includes.partials.scripts')
