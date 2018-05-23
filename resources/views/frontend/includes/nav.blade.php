@@ -1,55 +1,71 @@
+
 <!-- Header -->
-<div class="aitsheaderw3ls" id="agilehome">    
-    <!-- Navigation -->
+        <!-- Navigation -->
     <div class="agiletopbar">
-                <nav class="menu navbar-expand-lg mb-4">  
+        <div class="main-menu">
+            <div class="wthreenavigation">
 
-                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('labels.general.toggle_navigation') }}">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                        <div class="menu-wrap">
 
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            @if (config('locale.status') && count(config('locale.languages')) > 1)
-                                <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownLanguageLink" data-toggle="dropdown"
-                                       aria-haspopup="true" aria-expanded="false">{{ __('menus.language-picker.language') }} ({{ strtoupper(app()->getLocale()) }})</a>
+                            <nav class="menu">
 
-                                    @include('includes.partials.lang')
-                                </li>
-                            @endif
+                                <div class="icon-list">
 
-                            @auth
-                                <li class="nav-item"><a href="{{route('frontend.user.dashboard')}}" class="nav-link {{ active_class(Active::checkRoute('frontend.user.dashboard')) }}">{{ __('navs.frontend.dashboard') }}</a></li>
-                            @endauth
+                                    @if (Active::checkroute('frontend.index'))
+                                    <a class="scroll active" href="#agilehome"><i class="fa fa-home"></i><span>Home</span></a>
+                                    <a class="scroll" href="#about"><i class="fa fa-info"></i><span>About</span></a>
+                                    <a class="scroll" href="#skills"><i class="fa fa-bar-chart"></i><span>Skills</span></a>
+                                    <a class="scroll" href="#testimonials"><i class="fa fa-picture-o"></i><span>Testimonials</span></a>
+                                    <a class="scroll" href="#education"><i class="fa fa-book"></i><span>Education</span></a>
+                                    <a class="scroll" href="#experience"><i class="fa fa-university"></i><span>Experience</span></a>
+                                    <a class="scroll" href="#contact"><i class="fa fa-phone"></i><span>Contact Me</span></a>
+                                    <br>
+                                    @else
+                                    <a href="/"><i class="fa fa-home"></i><span>Home</span></a>
+                                    <br>
+                                    @endif
 
-                            @guest
-                                <li class="nav-item"><a href="{{route('frontend.auth.login')}}" class="nav-link {{ active_class(Active::checkRoute('frontend.auth.login')) }}">{{ __('navs.frontend.login') }}</a></li>
+                                    @guest
+                                        <a href="{{route('frontend.auth.login')}}" class="nav-link {{ active_class(Active::checkRoute('frontend.auth.login')) }}"><i class="fa fa-sign-in"></i><span>{{ __('navs.frontend.login') }}</span></a>
 
-                                @if (config('access.registration'))
-                                    <li class="nav-item"><a href="{{route('frontend.auth.register')}}" class="nav-link {{ active_class(Active::checkRoute('frontend.auth.register')) }}">{{ __('navs.frontend.register') }}</a></li>
-                                @endif
-                            @else
-                                <li class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuUser" data-toggle="dropdown"
-                                       aria-haspopup="true" aria-expanded="false">{{ $logged_in_user->name }}</a>
-
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuUser">
+                                        @if (config('access.registration'))
+                                            <a href="{{route('frontend.auth.register')}}" class="nav-link {{ active_class(Active::checkRoute('frontend.auth.register')) }}"><i class="fa fa-lock"></i><span>{{ __('navs.frontend.register') }}</span></a>
+                                        @endif
+                                    @else
+                                        <a href="#" class="nav-link"><i class="fa fa-user-circle"></i><span>{{ $logged_in_user->name }}</span></a>
                                         @can('view backend')
-                                            <a href="{{ route('admin.dashboard') }}" class="dropdown-item">{{ __('navs.frontend.user.administration') }}</a>
+                                            <a href="{{ route('admin.dashboard') }}" class="nav-link">{{ __('navs.frontend.user.administration') }}</a>
                                         @endcan
 
-                                        <a href="{{ route('frontend.user.account') }}" class="dropdown-item {{ active_class(Active::checkRoute('frontend.user.account')) }}">{{ __('navs.frontend.user.account') }}</a>
-                                        <a href="{{ route('frontend.auth.logout') }}" class="dropdown-item">{{ __('navs.general.logout') }}</a>
-                                    </div>
-                                </li>
-                            @endguest
+                                        <a href="{{ route('frontend.user.account') }}" class="nav-link {{ active_class(Active::checkRoute('frontend.user.account')) }}"><i class="fa fa-arrow-circle-o-right"></i><span>{{ __('navs.frontend.user.account') }}</span></a>
+                                        <a href="{{ route('frontend.auth.logout') }}" class="nav-link"><i class="fa fa-sign-out"></i><span>{{ __('navs.general.logout') }}</span></a>
 
-                            <li class="nav-item"><a href="{{route('frontend.contact')}}" class="nav-link {{ active_class(Active::checkRoute('frontend.contact')) }}">{{ __('navs.frontend.contact') }}</a></li>
-                        </ul>
-                    </div>
-                </nav>
+                                    @endguest
+
+                                    @auth
+                                        <a href="{{route('frontend.user.dashboard')}}" class="nav-link {{ active_class(Active::checkRoute('frontend.user.dashboard')) }}"><i class="fa fa-tachometer"></i><span>{{ __('navs.frontend.dashboard') }}</span></a>
+                                    @endauth
+
+                                </div>
+                            </nav>
+                            <button class="close-button" id="close-button">Close Menu</button>
+
+                        </div>
+
+                        <button class="menu-button" id="open-button">Open Menu</button>
+            </div>
+            <div class="agileinfomenu">
+                <p>MENU</p>
+            </div>
+        </div>
+
+        <div class="aitslogow3ls">
+            <a href="/"><div class="agilelogo">My Career</div></a>
+        </div>
+
+        <div class="wthreecontact">
+            <p><a class="scroll" href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> CONTACT ME</a></p>
+        </div>
     </div>
-    <!-- //Navigation -->
-</div>
 <!-- //Header -->
+

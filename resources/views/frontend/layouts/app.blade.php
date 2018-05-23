@@ -13,7 +13,7 @@
         <meta name="author" content="@yield('meta_author', 'Maroun Mourani')">
         @yield('meta')
 
-        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); 
                 function hideURLbar(){ window.scrollTo(0,1); } </script>
 
         <link rel="stylesheet" href="css/lightbox.css"><!-- for gallery css -->
@@ -38,6 +38,7 @@
         <link href="css/font-awesome.css" rel="stylesheet"> 
         <!-- //font-awesome-icons -->
 
+
         <!-- googlefonts -->
         <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
         <link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
@@ -52,10 +53,11 @@
 
         @stack('after-styles')
 
+
     </head>
     <body>
         @include('includes.partials.logged-in-as')
-        @include('frontend.includes.nav2')
+        @include('frontend.includes.nav')
         @yield('banner')
         <div class="clearfix"></div>
         @yield('content')
