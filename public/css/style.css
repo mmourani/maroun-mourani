@@ -41,10 +41,24 @@ img{
 /*-- Top-Bar --*/
 
 .agiletopbar {
-	height: 65px;
     border-bottom: 1px solid #a20204;
     background: #EEE048;
     position: relative;
+    height: 65px;
+}
+
+.agiletopbar > ul{
+
+    margin:0;
+    padding: 0;
+    display:flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.nav-item{
+    padding: 3em;
 }
 
 .wthreenavigation {
@@ -54,7 +68,6 @@ img{
 
 .agileinfomenu {
 	width: 10%;
-    display: flex;
 	height: 65px;
 	border-right: 1px solid #a20204;
 }
@@ -69,8 +82,6 @@ img{
 }
 
 .aitslogow3ls {
-	width: 70%;
-    float: left;
 	height: 80px;
 	text-align: center;
 }
@@ -96,7 +107,6 @@ img{
 .wthreecontact {
 	width: 15%;
 	height: 65px;
-    float: left;
 	text-align: center;
 	border-left: 1px solid #a20204;
 }
@@ -916,602 +926,57 @@ img.zoom-img:hover {
 }
 
 @media screen and (max-width: 1440px){
-	.banner {
-		min-height: 700px;
-	}
+
 }
 @media screen and (max-width: 1366px){
-    .banner {
-        min-height: 670px;
-    }
+
 }
 @media screen and (max-width: 1280px){
-	.banner {
-		min-height: 650px;
-	}
+
 }
 @media screen and (max-width: 1080px){
-	.banner {
-		min-height: 580px;
-	}
-	.w3_banner_info {
-		margin: 10em 0 0em;
-	}
-	.w3_banner_info h1 {
-		font-size: 50px;
-	}
-	h3.heading {
-		width: 23%;
-	}
-	.about h3.heading {
-		width: 21%;
-	}
-	.skills h3.heading {
-		width: 14%;
-	}	
-	.gallery h3.heading {
-		width: 19%;
-	}
-	.count-agileits h3.heading {
-		width: 36%;
-	}
-	.contact h3.heading {
-		width: 26%;
-	}
-	.wthreecontact {
-		width: 20%;
-	}
-	.aitslogow3ls {
-		width: 65%;
-	}
-	.aboutleft {
-		margin-top: 4em;
-	}
-	.education, .skills, .experience, .contact, .gallery, .count-agileits {
-		padding: 3em 0;
-	}
-	.about{
-		padding: 3em 0 1em;
-	}
-	.clients h3,.skillsright h3.bar-h3 {
-		font-size: 26px;
-	}
+
 }
 @media screen and (max-width: 991px){
-	.banner {
-		min-height: 540px;
-	}
-	.w3_banner_info {
-		margin: 9em 0 0em;
-	}
-	.rw-sentence span {
-		font-size: 25px;
-	}
-	.w3_banner_info h1 {
-		font-size: 45px;
-	}
-	.about h3.heading {
-		width: 25%;
-	}
-	.clients h3, .skillsright h3.bar-h3 {
-		margin-top: 1em;
-	}
-	.bar .group {
-		width: 50%;
-		float: left;
-	}
-	.gallery-grids {
-		width: 25%;
-		float: left;
-	}		
-	.grid1 {
-		margin-bottom: 2em;
-	}
-	.educationbottom {
-		margin-top: 0em;
-	}
-	.lastgrid {
-		margin-bottom: 0em;
-	}
-	h3.heading {
-		width: 25%;
-	}
-	.skills h3.heading {
-		width: 15%;
-	}
-	.gallery h3.heading {
-		width: 19%;
-	}
-	.count-agileits h3.heading {
-		width: 42%;
-	}
-	.contact h3.heading {
-		width: 30%;
-	}
-	.count-grid {
-		padding: 0 10px 0px;
-		float: left;
-		width: 25%;
-	}
-	.numscroller {
-		font-size: 3.5em;
-	}
-	.count-grid span {
-		left: 2%;
-		bottom: 30%;
-	}
-	.footer h3 a {
-		font-size: 1.5em;
-	}
-	.agileinfomenu {
-		width: 15%;
-	}
 
-	.aitslogow3ls {
-		width: 60%;
-	}
-	.agilelogo {
-		width: 20%;
-	}
-	.aboutleft {
-		margin-top: 0em;
-	}
-	h3.heading {
-		font-size: 35px;
-	}
-	.mail-agileits-w3layouts:nth-child(4) {
-		margin-bottom: 3em;
-	}
-	.grid1 h3 {
-		font-size: 22px;
-	}
-	.contact input[type="submit"] {
-		margin-bottom: 2em;
-	}
 }
 @media screen and (max-width: 900px){
-    .banner {
-        min-height: 500px;
-    }
+
 
 }
 @media screen and (max-width: 800px){
-	.agiletopbar,.wthreenavigation,.agileinfomenu,.wthreecontact,.aitslogow3ls {
-		height: 55px;
-	}
-	.agilelogo{
-		height: 54px;
-	}
-	.aitslogow3ls a {
-		font-size: 30px;
-	}
-	.menu-button {
-		margin: 0.2em 1em;
-	}
 
-	.agileinfomenu p {
-		padding-top: 14px;
-	}
-
-	.wthreecontact p {
-		padding-top: 14px;
-	}
-	.wthreecontact {
-		width: 25%;
-	}
-	.aitslogow3ls {
-		width: 55%;
-	}
-    .banner {
-        background-size: cover;
-    }
-	.gallery-grids {
-		padding: 0 5px;
-	}
-	.gallery-grids.grid-mdl {
-		margin-top: .6em;
-	}
 }
 @media screen and (max-width: 768px){
-	.education, .skills, .experience, .contact, .gallery, .count-agileits {
-		padding: 2em 0;
-	}
-	.w3_banner_info h1 {
-		font-size: 40px;
-	}
-	.rw-sentence span {
-		font-size: 22px;
-	}
-	.w3_banner_info h2 {
-		margin: 0.5em 0;
-	}
-	.address h3 {
-		font-size: 25px;
-	}
+
 }
 @media screen and (max-width: 736px){
-	.agilelogo {
-		width: 25%;
-		left: 35%;
-	}
-    .banner {
-        background-size: cover;
-        min-height: 470px;
-    }   
-	.rw-sentence span {
-		padding-top: 3px;
-	}
-	iframe {
-		height: 350px;
-	}
-}
-@media screen and (max-width: 667px){
-	.agileinfomenu {
-		width: 18%;
-	}
 
-	.aitslogow3ls {
-		width: 48%;
-	}
-	.wthreecontact {
-		width: 29%;
-	}
-	.agiletopbar, .wthreenavigation, .agileinfomenu,.wthreecontact, .aitslogow3ls {
-		height: 50px;
-	}
-	.agilelogo {
-		height: 49px;
-	}
-	.wthreecontact a {
-		font-size: 18px;
-	}
-	.aitslogow3ls a {
-		font-size: 26px;
-	}	
-	.agileinfomenu p {
-		font-size: 18px;
-		padding-left: 40px;
-	}
-
-	.menu-wrap {
-		width: 225px;
-		z-index: 99999;
-	}
-	h3.heading {
-		font-size: 30px;
-	}
-	.clients h3, .skillsright h3.bar-h3 {
-		font-size: 22px;
-	}
-	.count-grid h5 {
-		font-size: 1em;
-	}
-    .banner {
-        background-size: cover;
-        min-height: 450px;
-    }
 }
 @media screen and (max-width: 640px){
-	.w3_banner_info {
-		margin: 7em 0 0em;
-	}
-	.numscroller {
-		font-size: 3em;
-	}
-	.count-grid h5 {
-		font-size: .9em;
-	}
-	body .b_label, body .bar_label_min, body .bar_label_max, body .b_tooltip span {
-		font-size: 14px;
-	}
+
 }
 @media screen and (max-width: 600px){
-	.banner {
-		min-height: 420px;
-	}
-	h3.heading {
-		width: 29%;
-	}
-	.about h3.heading {
-		width: 27%;
-	}
-	.gallery h3.heading {
-		width: 26%;
-	}
-	.count-agileits h3.heading {
-		width: 45%;
-	}
-	.contact h3.heading {
-		width: 32%;
-	}
-	.grid1 h3 {
-		font-size: 20px;
-	}
-	.grid1 p {
-		font-size: 14px;
-	}
-	.count-grid h5 {
-		letter-spacing: 0px;
-	}	
-	.footer h3 a {
-		font-size: 1.3em;
-	}
-	.footer p {
-		font-size: 14px;
-	}
-	iframe {
-		height: 300px;
-	}
+
 }
 @media screen and (max-width: 568px){
-	.menu-button {
-		margin: 0.2em .5em;
-	}
-	.clients {
-		padding: 1em 1em;
-	}
-	body .b_label, body .bar_label_min, body .bar_label_max, body .b_tooltip span {
-		font-size: 13px;
-	}
-	.count-agileits h3.heading {
-		width: 50%;
-	}
-	.contact h3.heading {
-		width: 35%;
-	}
-	.about {
-		padding: 2em 0 1em;
-	}
 
 }
 @media screen and (max-width: 480px){
-	.wthreecontact a {
-		font-size: 14px;
-	}
-	.agileinfomenu p {
-		font-size: 14px;
-		padding-left: 32px;
-	}
-
-
-	.agilelogo {
-		width: 30%;
-		left: 33%;
-	}
-	.w3_banner_info h1 {
-		font-size: 35px;
-	}
-	.w3_banner_info {
-		margin: 5.5em 0 0em;
-	}
-	.banner {
-		min-height: 350px;
-	}
-	h3.heading {
-		width: 37%;
-	}
-	.about h3.heading {
-		width: 33%;
-	}
-	.bar .group {
-		width: 100%;
-		float: none;
-	}
-	.gallery-grids {
-		width: 50%;
-		float: left;
-		margin-bottom: .8em;
-	}
-	.count-agileits h3.heading {
-		width: 59%;
-	}
-	.count-grid {
-		padding: 0 30px 0px;
-		float: left;
-		width: 50%;
-	}
-	.count-grid span {
-		left: 10%;
-	}
-	.contact h3.heading {
-		width: 41%;
-	}
-	.gallery-grids.grid-mdl {
-		margin-top: 0;
-	}
-	.skills h3.heading {
-		width: 21%;
-	}
-	.gallery h3.heading {
-		width: 34%;
-	}
 
 }
 @media screen and (max-width: 414px){
-	.agileinfomenu {
-		width: 23%;
-	}
-
-	ul.address li ul.agileits-address-text li:nth-child(1) {
-		width: 37%;
-	}
-	.agilelogo {
-		width: 38%;
-		left: 28%;
-	}
-	.aitslogow3ls {
-		width: 38%;
-	}
-	.wthreecontact {
-		width: 34%;
-	}
-	.w3_banner_info h1 {
-		font-size: 30px;
-	}
-	.w3_banner_info {
-		width: 100%;
-	}
-	.rw-sentence span {
-		font-size: 20px;
-	}
-	.about h3.heading {
-		width: 41%;
-	}
-	.clients {
-		padding: 1em 0em;
-	}
-	.flex-active-slide h4 {
-		line-height: 26px;
-	}
-	.count-agileits h3.heading {
-		width: 70%;
-	}
-	.contact h3.heading {
-		width: 48%;
-	}
-	.contact-right p {
-		font-size: 17px;
-	}
-	.address h3 {
-		font-size: 22px;
-	}
-	.rw-sentence span {
-		padding-top: 5px;
-	}
-	h3.heading {
-		width: 45%;
-	}
-	.skills h3.heading {
-		width: 26%;
-	}
-	.gallery h3.heading {
-		width: 39%;
-	}
 
 }
 @media screen and (max-width: 384px){
-	.rw-sentence span {
-		font-size: 19px;
-	}
-	.about h3.heading {
-		width: 43%;
-	}
-	.education .col-md-6,.experience .col-md-6 {
-		padding: 0;
-	}
-	.count-agileits h3.heading {
-		width: 75%;
-	}
-	.contact h3.heading {
-		width: 52%;
-	}
-	.clients h3, .skillsright h3.bar-h3 {
-		font-size: 20px;
-	}
-
-    .agileinfomenu p {
-        padding-left: 23px;
-    }
 }
 @media screen and (max-width: 375px)
               and (-webkit-min-device-pixel-ratio: 2)
 {
-	h3.heading {
-		width: 50%;
-	}
-	.skills h3.heading {
-		width: 28%;
-	}
-	.gallery h3.heading {
-		width: 42%;
-	}
-	.count-agileits h3.heading {
-		width: 77%;
-	}
-	.count-grid {
-		padding: 0 24px 0px;
-	}
-	.footer h3 a {
-		font-size: 1.1em;
-	}
-    .banner {
-        background-size: cover;
-    }
-	h3.heading {
-		margin: 0 auto .5em;
-	}
 }
 @media screen and (max-width: 320px)
               and (-webkit-min-device-pixel-ratio: 2)
 {
-	.menu-button {
-		margin: 0.2em 0em;
-	}
-
-	.aitslogow3ls a {
-		font-size: 22px;
-	}
-	.agilelogo {
-		width: 34%;
-	}
-	.aitslogow3ls {
-		width: 33%;
-	}
-	.wthreecontact {
-		width: 39%;
-	}
-	.wthreecontact a i {
-		margin-right: 0px;
-	}
-	.agilelogo {
-		padding-top: 7px;
-	}
-	.rw-sentence span {
-		font-size: 16.5px;
-	}	
-	.w3_banner_info {
-		padding: 10px 0px;
-	}
-	.about h3.heading {
-		width: 50%;
-	}
-    .banner {
-        background-size: cover;
-    }
-
-	.education .col-md-6, .experience .col-md-6 {
-		padding: 0 15px 0 0;
-	}
-	.grid1 h3 {
-		font-size: 18px;
-	}
-	.grid1 {
-		padding: 2em 1em;
-	}
-	.grid1:hover{
-		padding: 2em 1em;
-	}
-	.grid1 i.fa.fa-mobile {
-		font-size: 30px;
-		padding-right: 0em;
-	}
-	.grid1 i.fa.fa-camera {
-		font-size: 25px;
-		padding-right: 0em;
-	}	
-	.count-agileits h3.heading {
-		width: 87%;
-	}
-	.count-grid {
-		padding: 0 16px 0px;
-	}
-	.count-grid span {
-		left: 8%;
-		width: 35px;
-	}
-	.contact h3.heading {
-		width: 60%;
-	}
 }
 @media screen and (max-width: 1920px){
 	

@@ -58,6 +58,12 @@
     <body>
         @include('includes.partials.logged-in-as')
         @include('frontend.includes.nav')
+        @yield('banner')
+        <div class="clearfix"></div>
+        @yield('content')
+        @include('includes.partials.messages')
+        @include('frontend.includes.footer') 
+
         <!-- Scripts -->
         @include('includes.partials.scripts')
         @include('includes.partials.ga')
