@@ -53,13 +53,11 @@ img{
 
 .wthreenavigation {
 	width: 5%;
-	float: left;
 	height: 65px;
 }
 
 .agileinfomenu {
 	width: 10%;
-	float: left;
 	height: 65px;
 	border-right: 1px solid #a20204;
 }
@@ -75,7 +73,6 @@ img{
 
 .aitslogow3ls {
 	width: 70%;
-	float: left;
 	height: 80px;
 	text-align: center;
 }
@@ -100,7 +97,6 @@ img{
 
 .wthreecontact {
 	width: 15%;
-	float: left;
 	height: 65px;
 	text-align: center;
 	border-left: 1px solid #a20204;
