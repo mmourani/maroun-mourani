@@ -1,7 +1,6 @@
 
 <!-- Header -->
     <div class="aitsheaderw3ls" id="agilehome">
-
         <!-- Navigation -->
         <div class="agiletopbar">
 
@@ -58,20 +57,23 @@
                 <button class="menu-button" id="open-button">Open Menu</button>
             </div>
 
-            <div class="agileinfomenu">
-                <p>MENU</p>
+            <div class="main-menu">
+
+                <div class="agileinfomenu">
+                    <p>MENU</p>
+                </div>
+
+                <div class="aitslogow3ls">
+                        <a href="/"><div class="agilelogo">My Career</div></a>
+                </div>
+
+                <div class="wthreecontact">
+                    <p><a class="scroll" href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> CONTACT ME</a></p>
+                </div>
+
             </div>
 
-            <div class="aitslogow3ls">
-                    <a href="/"><div class="agilelogo">My Career</div></a>
-            </div>
-
-            <div class="wthreecontact">
-                <p><a class="scroll" href="#contact"><i class="fa fa-envelope-o" aria-hidden="true"></i> CONTACT ME</a></p>
         </div>
-
-        </div>
-
     </div>
 <!-- //Header -->
 
