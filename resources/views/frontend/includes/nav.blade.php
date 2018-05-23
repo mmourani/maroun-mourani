@@ -6,7 +6,6 @@
                 <li>
                     <div class="wthreenavigation">
                         <div class="menu-wrap">
-                        <button class="close-button" id="close-button">Close Menu</button>
                         <nav class="menu">
                             <div class="icon-list">
 
@@ -46,6 +45,8 @@
                                 @endauth
                             </div>
                         </nav>
+                            <button class="close-button" id="close-button">Close Menu</button>
+
                         </div>
                     <button class="menu-button" id="open-button">Open Menu</button>
                     </div>
