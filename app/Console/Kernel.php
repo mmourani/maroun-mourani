@@ -29,7 +29,7 @@ class Kernel extends ConsoleKernel
     {
         $schedule->command('inspire')
                  ->everyTenMinutes()
-                 ->thenPing('http://beats.envoyer.io/heartbeat/AyYvMdggBY3usvV');
+                 ->thenPing('http://beats.envoyer.io/heartbeat/bhtjVFTR6vzlOsq');
     }
 
     /**
